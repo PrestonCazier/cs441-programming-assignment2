@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "SimulationManager.h"
 
 using namespace std;
 
