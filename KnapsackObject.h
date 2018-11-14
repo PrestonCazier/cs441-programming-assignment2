@@ -13,7 +13,14 @@ class KnapsackObject
 	int value;
 
 	public:
-	KnapsackObject();
-	~KnapsackObject();
+	  KnapsackObject();
+	  KnapsackObject(string n, int w, int v);
+	  ~KnapsackObject();
+
+	  string GetName();
+	  int GetWeight();
+	  int GetValue();
+
+	  void SetObject(string n, int w, int v);
 };
 #endif KNAPSACKOBJECT_08112018
