@@ -21,7 +21,7 @@ class SimulationManager
     int PopulationSize = 100;
     int maxWeight = 100;
     int NumIterations = 1000;
-    float MutationPct = .01f;
+    int MutationPct = 5;
 
   public:
     SimulationManager();
